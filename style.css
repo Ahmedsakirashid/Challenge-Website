@@ -1,0 +1,434 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    transition: 0.6s;
+}
+
+
+header{
+    height: 20px;
+    justify-content: space-between;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+ header ul{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    font-size: 22px;
+}
+
+header ul li{
+    padding: 10px ;
+}
+
+header li a{
+    color: black;
+}
+
+header li a:hover{
+    color: red;
+}
+
+
+
+.cont{
+    width: 100%;
+    height: 80vh;
+    padding-top: 4vh;
+    background-image: url(bg-hero-desktop.svg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1{
+    margin-left: 60px;
+}
+.logo1 img{
+    width: 79vh;
+    height: 420px;
+}
+
+.div1{
+    font-size: 26px;
+    padding: 25px;
+    margin-left: 20px;
+}
+
+.div1 p{
+    font-size: 20px;
+}
+
+.div1 h3{
+    font-size: 39px;
+    margin-bottom: 20px ;
+}
+
+.cont button{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 0, 200);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 7px 0px black;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bod{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 200vh;
+    height: 52vh;
+    margin-left: 50px;
+    margin-top: 60px;
+    border-radius: 15px;
+    /* box-shadow: 0px 0px  10px 1px rgb(154, 150, 150); */
+    padding: 20px;
+}
+
+.logo2 img{
+    margin-left: 212px;
+    width: 70vh;
+    height: 50vh;
+}
+
+.bod1{
+    font-size: 23px;
+}
+
+.bod1 p{
+    font-size: 17px;
+    color: rgb(154, 150, 150);
+}
+
+
+
+.bod3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 200vh;
+    height: 52vh;
+    margin-left: 50px;
+    margin-top: 60px;
+    border-radius: 15px;
+    /* box-shadow: 0px 0px  10px 1px rgb(154, 150, 150); */
+    padding: 20px;
+}
+
+
+.logo3 img{
+    margin-right: 212px;
+    width: 70vh;
+    height: 50vh;
+}
+
+.bod4{
+    font-size: 23px;
+}
+
+.bod4 p{
+    font-size: 17px;
+    color: rgb(154, 150, 150);
+}
+
+
+
+
+
+
+
+.div{
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    width: 100vh;
+    height: 24vh;
+    /* box-shadow: 0px 0px 7px 0px  rgb(154, 150, 150); */
+    margin-left: 370px;
+    padding-top: 8vh;
+    margin-top: 50px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.div button{
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(255, 0, 200);
+    color: white;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0px 0px 7px 0px black;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+footer{
+    height: 25vh;
+    background-color: rgb(26, 29, 47);
+    padding: 100px;
+    display: flex;
+    
+}
+
+.foot1{
+    color: white;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.foot1 img{
+    margin-right: 30px;
+    width: 15px;
+    height: 20px;
+}
+
+.phon{
+    color: white;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.phon img{
+
+    margin-right: 30px;
+    width: 15px;
+    height: 20px;
+}
+
+.ema{
+    color: white;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+}
+
+.ema img{
+    margin-right: 30px;
+    width: 19px;
+    height: 20px;
+}
+
+
+
+
+.main2{
+    margin-left: 150px;
+}
+.main2 li a{
+    color: white;
+}
+
+
+.main2 ul li{
+    padding: 5px;
+}
+
+
+
+
+.main3 {
+    margin-left: 150px;
+}
+
+.main3 li a{
+    color: white;
+}
+
+.main3 ul li{
+    padding: 5px;
+}
+
+
+.main4{
+    margin-left: 150px;
+}
+
+.part4{
+    color: white;
+    font-size: 17px;
+}
+
+.main4 ul{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.main4 img{
+    width: 50px;
+    height: 30px; 
+}
+
+
+
+/* @media screen and (max-width:1200px) {
+    header{
+        width: 60%;
+        height: 100px;
+    }
+    ul{
+        margin-left: 10px;
+    }
+    ul li{
+        margin-left: 30px;
+    }
+    ul li a{
+        font-size: 1.6vw;
+    } */
+     /* img{
+        width: 40vh;
+        height: 270px;
+    } */
+    
+    /* .cont{
+        width: 100%;
+        height: 40vh;
+        padding-top: 12vh;
+        display: inline;
+        background-image: url(bg-hero-desktop.svg);
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .div1{
+        font-size: 5px;
+        padding: 10px;
+        margin-bottom: 45px;
+    }
+    .div1 p{
+        font-size: 10px;
+    }
+    
+    .div1 h3{
+        font-size: 29px;
+        margin-bottom: 15px ;
+    }
+
+    .logo1 img{
+            width: 59vh;
+            height: 360px;
+            margin-bottom: 60px;
+        }
+    .cont button{
+            width: 200px;
+            height: 40px;
+            background-color: rgb(255, 0, 200);
+            color: white;
+            border-radius: 30px;
+            border: none;
+            box-shadow: 0px 0px 7px 0px black;
+            margin-top: 30px;
+            font-weight: bold;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+    /* part1 section */
+
+
+    /* .bod{
+        display: inline;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        width: 100vh;
+        height: 32vh;
+        margin-left: 10px;
+        margin-top: 300px;
+        border-radius: 15px; */
+        /* box-shadow: 0px 0px  10px 1px rgb(154, 150, 150); */
+        /* padding: 20px;
+        padding-top: 200px;
+    }
+    
+    .logo2 img{
+        margin-top: 100px;
+        width: 40vh;
+        height: 30vh;
+    }
+    
+    .bod1{
+        font-size: 15px;
+    }
+    
+    .bod1 p{
+        font-size: 17px;
+        color: rgb(154, 150, 150);
+    }
+     */
+    
+/* .bod3{
+    display: inline;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 100vh;
+    height: 32vh;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    border-radius: 15px; */
+    /* box-shadow: 0px 0px  10px 1px rgb(154, 150, 150); */
+    /* padding: 20px;
+}
+
+
+.logo3 img{
+    margin-right: 112px;
+    width: 40vh;
+    height: 30vh;
+}
+
+.bod4{
+    font-size: 15px;
+}
+
+.bod4 p{
+    font-size: 13px;
+    color: rgb(154, 150, 150);
+}
+
+
+}  */
